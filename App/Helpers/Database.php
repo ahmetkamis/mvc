@@ -9,7 +9,7 @@
 
 class Database extends PDO
 {
-    public $dbh;
+    public $dbh; //database handler!
 
     private static $instance;
 
@@ -25,7 +25,7 @@ class Database extends PDO
             parent::__construct('mysql:host=' . $host .';dbname=' . $name, $user, $pass);
         }
         catch (\PDOException $e) {
-            //echo $e->getMessage();
+            echo $e->getMessage();
             die('database connection error.');
         }
 

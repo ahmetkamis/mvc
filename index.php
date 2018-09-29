@@ -14,3 +14,5 @@ $App = new App();
 
 $test = new TestModel();
 $test->SelamYaz();
+
+$post = new Post();

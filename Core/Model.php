@@ -19,6 +19,22 @@ class Model {
 
     }
 
+    public function create() {
+
+    }
+
+    public function save() {
+
+    }
+
+    public function update() {
+
+    }
+
+    public function get() {
+
+    }
+
 
     function __get($name)
     {
