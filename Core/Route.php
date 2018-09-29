@@ -5,3 +5,8 @@
  * @copyright   2018 © Ahmet Kamis
  *
  */
+
+
+class Route {
+
+}

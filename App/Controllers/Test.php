@@ -15,5 +15,9 @@ class TestController extends Controller {
         echo "TestController construct";
     }
 
+    function index() {
+        echo "TestController/Index";
+    }
+
 
 }
